@@ -53,7 +53,7 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image.", use_column_width=True)
 
 
-submit=st.button("Tell me about the image")
+submit=st.button("Tell me about the invoice")
 
 input_prompt = """
                You are an expert in understanding invoices.
